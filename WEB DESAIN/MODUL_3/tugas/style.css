@@ -1,0 +1,114 @@
+
+/* Pengaturan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #E7C6FF, #C8B6FF);
+    color: #3C096C;
+    margin: 0;
+    padding: 30px 0;
+}
+
+/* Pengaturan tabel */
+table {
+    width: 85%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(60, 9, 108, 0.2);
+    transition: 0.3s;
+}
+
+/* Efek saat kursor diarahkan */
+table:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(60, 9, 108, 0.3);
+}
+
+/* Pengaturan isi tabel */
+td {
+    padding: 25px;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #3C096C, #7B2CBF);
+}
+
+.header h1 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.header p {
+    color: #E7C6FF;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+/* Identitas */
+.identitas {
+    background-color: white;
+}
+
+.identitas h2 {
+    color: #7B2CBF;
+    margin: 0;
+}
+
+.identitas p {
+    color: #9D4EDD;
+    margin-bottom: 0;
+}
+
+/* Data pribadi */
+.data {
+    background-color: #C77DFF;
+    color: white;
+}
+
+/* Tentang saya */
+.tentang {
+    background-color: #9D4EDD;
+    color: white;
+}
+
+/* Judul bagian */
+h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+/* Garis pembatas */
+hr {
+    border: 1px solid white;
+}
+
+/* Footer */
+.footer {
+    background-color: #7B2CBF;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* Tampilan layar HP */
+@media screen and (max-width: 600px) {
+
+    table {
+        width: 92%;
+    }
+
+    td {
+        padding: 18px;
+    }
+
+    .header h1 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+}
