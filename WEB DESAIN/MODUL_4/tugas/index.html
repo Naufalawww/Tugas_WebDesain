@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Profil Alumni</title>
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Direktori Profil Alumni</h2>
+
+    <!-- Kotak Pencarian -->
+    <input type="text" id="searchBox" class="search-box" placeholder="Cari berdasarkan nama atau jurusan..." onkeyup="cariAlumni()">
+
+    <!-- Daftar Profil Alumni -->
+    <div class="container" id="alumniContainer">
+        <div class="alumni-card" data-nama="Budi Santoso" data-jurusan="Sistem Informasi">
+            <h3>Budi Santoso</h3>
+            <p>Jurusan: Sistem Informasi</p>
+            <p>Tahun: 2023</p>
+        </div>
+        <div class="alumni-card" data-nama="Siti Aminah" data-jurusan="Manajemen">
+            <h3>Siti Aminah</h3>
+            <p>Jurusan: Manajemen</p>
+            <p>Tahun: 2022</p>
+        </div>
+        <div class="alumni-card" data-nama="Ahmad Fauzi" data-jurusan="Teknik Informatika">
+            <h3>Ahmad Fauzi</h3>
+            <p>Jurusan: Teknik Informatika</p>
+            <p>Tahun: 2024</p>
+        </div>
+    </div>
+
+    <!-- Menghubungkan file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

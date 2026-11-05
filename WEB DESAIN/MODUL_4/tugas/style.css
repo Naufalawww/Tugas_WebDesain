@@ -1,0 +1,37 @@
+/* Tampilan Dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+.search-box {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.alumni-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+    cursor: pointer;
+    /* Efek transisi untuk hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek Hover pada Profil Alumni */
+.alumni-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    background-color: #f0f8ff;
+}
